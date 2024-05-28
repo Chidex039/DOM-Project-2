@@ -1,0 +1,29 @@
+body {
+  background: #eee0e9;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding: 4px;
+}
+
+#container {
+  height: 40rem;
+  width: 30rem;
+  background-color: white;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  /* border: red solid 0.5rem; */
+}
+
+#container #color-box {
+  /* border: red solid 0.2rem; */
+  max-width: 400px;
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  margin-top: 2rem;
+}
